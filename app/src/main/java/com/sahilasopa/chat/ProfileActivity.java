@@ -81,7 +81,7 @@ public class ProfileActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == R.id.settings) {
-            // Todo create settings/profile page
+            // Todo create settings page
             Toast.makeText(getApplicationContext(), "Setting TODO", Toast.LENGTH_SHORT).show();
         } else if (item.getItemId() == R.id.logout) {
             auth.signOut();

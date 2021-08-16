@@ -93,7 +93,7 @@ public class ContactActivity extends AppCompatActivity {
 
     public void googleSignIn() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
-        startActivityForResult(signInIntent, RC_SIGN_IN);
+        startActivityForResult(signInIntent, RC_SIGN_IN); // Info: This method is deprecated but is still in use according to google documentation
     }
 
     @Override

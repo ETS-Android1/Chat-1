@@ -26,7 +26,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UsersFragment extends Fragment {
-    FirebaseAuth auth;
     DatabaseReference reference;
     private UserAdapter userAdapter;
     private List<User> users;
@@ -43,7 +42,6 @@ public class UsersFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         RecyclerView recyclerView;
         reference = FirebaseDatabase.getInstance().getReference("Users");
-        auth = FirebaseAuth.getInstance();
         users = new ArrayList<>();
         recyclerView = view.findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);

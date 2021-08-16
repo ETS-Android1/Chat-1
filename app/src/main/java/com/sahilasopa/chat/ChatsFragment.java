@@ -28,10 +28,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ChatsFragment extends Fragment {
-    FirebaseAuth auth;
     DatabaseReference reference;
     DatabaseReference chatReference;
-    FirebaseDatabase database;
     private UserAdapter userAdapter;
     private List<User> users;
     private List<String> ids;
@@ -51,11 +49,9 @@ public class ChatsFragment extends Fragment {
         reference = FirebaseDatabase.getInstance().getReference("Users");
         chatReference = FirebaseDatabase.getInstance().getReference("Chats");
         Query chatQuery = chatReference.orderByChild("timestamp");
-        auth = FirebaseAuth.getInstance();
-        database = FirebaseDatabase.getInstance();
         users = new ArrayList<>();
         ids = new ArrayList<>();
-        unread = new ArrayList<Chat>();
+        unread = new ArrayList<>();
         recyclerView = view.findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));

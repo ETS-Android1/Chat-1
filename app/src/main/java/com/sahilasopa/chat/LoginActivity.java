@@ -85,7 +85,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void signIn() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
-        startActivityForResult(signInIntent, RC_SIGN_IN);
+        startActivityForResult(signInIntent, RC_SIGN_IN); // Info: This method is deprecated but is still in use according to google documentation
     }
 
     @Override
