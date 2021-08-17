@@ -3,6 +3,7 @@ package com.sahilasopa.chat;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -119,6 +120,7 @@ public class RegisterActivity extends AppCompatActivity {
                 firebaseAuthWithGoogle(account.getIdToken());
             } catch (ApiException e) {
                 // Google Sign In failed, update UI appropriately
+                Log.v("response", String.valueOf(e.getStatus()));
                 Toast.makeText(this, "Google Sign in failed", Toast.LENGTH_SHORT).show();
             }
         }

@@ -1,10 +1,48 @@
 {
   "project_info": {
     "project_number": "419106872726",
+    "firebase_url": "https://chat-bfb18-default-rtdb.firebaseio.com",
     "project_id": "chat-bfb18",
     "storage_bucket": "chat-bfb18.appspot.com"
   },
   "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419106872726:android:8deb6a03f3c1ed716f11b7",
+        "android_client_info": {
+          "package_name": "com.sahilasopa.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419106872726-q9q0jgi0p5fvr01bt0tvoa28opuf2tif.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sahilasopa.auth",
+            "certificate_hash": "bd0ea58adf2e076942608eab91e5ca28842f507e"
+          }
+        },
+        {
+          "client_id": "419106872726-qqu13jp5trtdsj6tsioitbrgq2na9lo1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4UhYFUWWY08flGJ54VXzLpE35GPthJbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419106872726-qqu13jp5trtdsj6tsioitbrgq2na9lo1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
     {
       "client_info": {
         "mobilesdk_app_id": "1:419106872726:android:9aab04c6fd817a8a6f11b7",

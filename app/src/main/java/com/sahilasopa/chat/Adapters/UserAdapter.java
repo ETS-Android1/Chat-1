@@ -12,6 +12,7 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.sahilasopa.chat.MainActivity;
+import com.sahilasopa.chat.MessageActivity;
 import com.sahilasopa.chat.Models.Chat;
 import com.sahilasopa.chat.Models.User;
 import com.sahilasopa.chat.R;
@@ -88,7 +89,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
         public void onClick(View v) {
             int pos = getAdapterPosition();
             User user = users.get(pos);
-            Intent chat = new Intent(context, MainActivity.class);
+            Intent chat = new Intent(context, MessageActivity.class);
             chat.putExtra("user", user.getId());
             chat.putExtra("username", user.getUsername());
             context.startActivity(chat);
