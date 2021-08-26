@@ -14,8 +14,8 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="26dp"
-        app:srcCompat="@drawable/chat_blue"
-        android:contentDescription="@string/icon" />
+        android:contentDescription="@string/icon"
+        app:srcCompat="@drawable/chat_blue" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,41 +34,41 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="10dp"
-            android:ems="10"
+            android:autofillHints="@string/username"
             android:background="@drawable/edittext"
+            android:ems="10"
             android:hint="@string/username"
             android:inputType="textPersonName"
             android:padding="9dp"
             android:textColor="@color/black"
-            android:textColorHint="#808080 "
-            android:autofillHints="@string/username" />
+            android:textColorHint="#808080 " />
 
         <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:autofillHints="@string/email"
             android:background="@drawable/edittext"
             android:ems="10"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:padding="9dp"
             android:textColor="@color/black"
-            android:textColorHint="#808080 "
-            android:autofillHints="@string/email" />
+            android:textColorHint="#808080 " />
 
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints="@string/password"
             android:background="@drawable/edittext"
             android:ems="10"
             android:hint="@string/password"
             android:inputType="textPassword"
             android:padding="9dp"
             android:textColor="@color/black"
-            android:textColorHint="#808080 "
-            android:autofillHints="@string/password" />
+            android:textColorHint="#808080 " />
 
         <TextView
             android:id="@+id/alreadyHaveAccountText"
@@ -99,6 +99,7 @@
 
             <Button
                 android:id="@+id/buttonGoogle"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="4dp"
@@ -110,15 +111,15 @@
                 android:textColor="@color/black"
                 app:backgroundTint="@color/white"
                 app:cornerRadius="6dp"
-                tools:ignore="RtlHardcoded"
-                style="?android:attr/buttonBarButtonStyle" />
+                tools:ignore="RtlHardcoded" />
 
             <Button
                 android:id="@+id/buttonMobileNo"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="4dp"
-                android:layout_marginLeft="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:drawableLeft="@drawable/ic__msg"
                 android:padding="14dp"
@@ -126,8 +127,7 @@
                 android:textColor="@color/black"
                 app:backgroundTint="@color/white"
                 app:cornerRadius="6dp"
-                tools:ignore="RtlHardcoded"
-                style="?android:attr/buttonBarButtonStyle" />
+                tools:ignore="RtlHardcoded" />
 
         </LinearLayout>
 
