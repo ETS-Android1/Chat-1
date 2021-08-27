@@ -1,7 +1,7 @@
 # Real Time Chat
 
 "Chat" is an Android application used for realtime chat, the application focuses on privacy and all your data is safe
-Download APK: https://drive.google.com/file/d/1bkmtnS5Qxl0A1XXWNfe--eKF2eK6PV-0/view?usp=sharing
+Download APK: https://drive.google.com/file/d/1uhEujTowxbz7Ojw_O3AeZYlaZbNJImGX/view?usp=sharing
 Preview Of The App: https://youtu.be/wHdZNOOiOP0
 
 ## Installation
