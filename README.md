@@ -1,6 +1,6 @@
 # Real Time Chat
 
-"Chat" is an Android application used for realtime chat, the application foucses on privacy and all your data is safe
+"Chat" is an Android application used for realtime chat, the application focuses on privacy and all your data is safe
 
 ## Installation
 
@@ -20,10 +20,10 @@ The Project is already build for you but in case you would like to build it foll
 ```
 You Should See BUILD SUCCESSFUL in your cmd, now go to Chat>app>build>outputs>apk>debug and install apk-debug.apk in your android device (Android Lollipop 5.1 or Higher)
 
-Incase You See Errors During Build Follow Steps Below
+In case You See Errors During Build Follow Steps Below
 
-1) make sure java is installed and JAVA_HOME is added to your enviroment variables (windows)
-2) incase of heap errors:
+1) make sure java is installed and JAVA_HOME is added to your environment variables (windows)
+2) in case of heap errors:
 Anyway, here is how to fix it:
 
 Go to Start->Control Panel->System->Advanced(tab)->Environment Variables->System Variables->New:
