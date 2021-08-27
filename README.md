@@ -2,6 +2,8 @@
 
 "Chat" is an Android application used for realtime chat, the application focuses on privacy and all your data is safe
 
+Preview Of The App: https://youtu.be/wHdZNOOiOP0
+
 ## Installation
 
 Clone This Repository in any folder in your pc and make sure java is installed 
