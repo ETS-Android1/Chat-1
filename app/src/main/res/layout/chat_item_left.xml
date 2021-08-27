@@ -15,10 +15,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:layout_marginLeft="5dp"
         android:layout_toEndOf="@id/profile"
-        android:layout_toRightOf="@id/profile"
         android:background="@drawable/background_left"
+        android:textColor="@color/black"
         android:padding="8dp"
         android:text="Hello"
         android:textSize="18sp" />
@@ -28,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/show_message"
-        android:layout_toRightOf="@id/profile"
+        android:layout_toEndOf="@id/profile"
         android:text="12:00"
         android:textSize="12sp"
         android:visibility="gone" />
@@ -38,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/show_message"
-        android:layout_toRightOf="@id/profile"
+        android:layout_toEndOf="@id/profile"
         android:text="Seen"
         android:textSize="12sp"
         android:visibility="gone" />
