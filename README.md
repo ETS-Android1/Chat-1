@@ -12,7 +12,7 @@ java -version
 you should be able to see your version of java installed, in case java is not installed in your pc install it using this link [java download](https://www.java.com/en/download/)
 
 ## Usage
-The Project is already build for you but in case you would like to build it follow these steps
+The Project is already build for you and apk file can be downloaded from Chat>app>build>outputs>apk>debug but in case you would like to build it follow these steps
 
 1) Open The Downloaded/Cloned Project In Your Terminal Window 
 ```bash
